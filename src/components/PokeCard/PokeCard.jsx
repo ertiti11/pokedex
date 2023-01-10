@@ -27,7 +27,7 @@ export default function PokeCard({params}) {
     
             </div>
         )}else{
-        return <Error />
+        return <Error keyword={keyword}/>
     }
 
 
